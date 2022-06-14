@@ -11,18 +11,15 @@
         $("ul").click(function () {
           if (gone === true) {
             $(".main-text").animate({ right: -100 });
+            $("body").addClass("cl");
             gone = false;
           } else if (gone === false) {
             $(".main-text").animate({ right: 100 });
             gone = true;
+            $("body").removeClass("cl");
           }
         });
       });
-    </script>
-    <script>
-      var style = document.createElement('style');
-      document.head.appendChild(style);
-      style.sheet.insertRule('#main-text {font-size: 16px}');
     </script>
   </head>
   <body>
