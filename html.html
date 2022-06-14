@@ -5,8 +5,7 @@
     <script type="text/javascript" src="animation.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-
-    // change text color to white
+      // change text color to white
       $(document).ready(function () {
         let gone = false;
         $("ul").click(function () {
@@ -16,10 +15,14 @@
           } else if (gone === false) {
             $(".main-text").animate({ right: 100 });
             gone = true;
-            $("body").css("background-image","url("background.jpg")");
           }
         });
       });
+    </script>
+    <script>
+      var style = document.createElement('style');
+      document.head.appendChild(style);
+      style.sheet.insertRule('#main-text {font-size: 16px}');
     </script>
   </head>
   <body>
