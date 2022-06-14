@@ -5,14 +5,20 @@
     <script type="text/javascript" src="animation.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
+      const style = document.createElement("style");
+      style.innerHTML = `
+        .bg {
+            background-image: url(background.jpg);
+      }`;
+                  document.head.appendChild(style);
       $(document).ready(function () {
         let gone = false;
         $("ul").click(function () {
           if (gone === true) {
-            $(".right-to-left-square").animate({ right: -100 });
+            $(".main-text").animate({ right: -100 });
             gone = false;
           } else if (gone === false) {
-            $(".right-to-left-square").animate({ right: 100 });
+            $(".main-text").animate({ right: 100 });
             gone = true;
           }
         });
