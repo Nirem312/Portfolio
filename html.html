@@ -11,12 +11,12 @@
         $("ul").click(function () {
           if (gone === true) {
             $(".main-text").animate({ right: -100 });
-            $("body").addClass("cl");
             gone = false;
+            $("body, html").addClass("cl");
           } else if (gone === false) {
             $(".main-text").animate({ right: 100 });
             gone = true;
-            $("body").removeClass("cl");
+            $("body, html").removeClass("cl");
           }
         });
       });
