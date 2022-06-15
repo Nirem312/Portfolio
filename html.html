@@ -5,20 +5,27 @@
     <script type="text/javascript" src="animation.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-      // change text color to white
       $(document).ready(function () {
         let gone = false;
         $("ul").click(function () {
           if (gone === true) {
-            $(".main-text").animate({ right: -100 });
+            $(".main-text").animate({ right: -300 });
             gone = false;
-            $("body, html").addClass("cl");
           } else if (gone === false) {
             $(".main-text").animate({ right: 100 });
             gone = true;
-            $("body, html").removeClass("cl");
           }
         });
+        $("#tercero").click (function (){
+          let back = 1;
+          if (back === 1){
+            $("body, html").addClass("cl");
+            back = 2;
+          } else if (back === 2){
+            $("body, html").removeClass("cl");
+            back = 1;
+          }
+        })
       });
     </script>
   </head>
@@ -38,7 +45,7 @@
     <ul>
       <li><button type="button" class="btn third">Button</button></li>
       <li><button type="button" class="btn third">Button</button></li>
-      <li><button type="button" class="btn third">Button</button></li>
+      <li><button id="tercero" type="button" class="btn third">Button</button></li>
     </ul>
     <div class="main-text">
       <p>
