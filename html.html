@@ -9,23 +9,28 @@
         let gone = false;
         $("ul").click(function () {
           if (gone === true) {
-            $(".main-text").animate({ right: -300 });
+            //$(".main-text").animate({ right: -1000 });
+            $(".main-text").addClass("begone");
             gone = false;
           } else if (gone === false) {
-            $(".main-text").animate({ right: 100 });
+            //$(".main-text").animate({ right: 3000 });
+            $(".main-text").removeClass("begone");
             gone = true;
           }
         });
-        $("#tercero").click (function (){
-          let back = 1;
-          if (back === 1){
+
+        // start of third button
+        let back = 1;
+        $("#tercero").click(function () {
+          if (back === 1) {
             $("body, html").addClass("cl");
             back = 2;
-          } else if (back === 2){
+          } else if (back === 2) {
             $("body, html").removeClass("cl");
             back = 1;
           }
-        })
+        });
+        // end of third button
       });
     </script>
   </head>
@@ -45,7 +50,9 @@
     <ul>
       <li><button type="button" class="btn third">Button</button></li>
       <li><button type="button" class="btn third">Button</button></li>
-      <li><button id="tercero" type="button" class="btn third">Button</button></li>
+      <li>
+        <button id="tercero" type="button" class="btn third">Button</button>
+      </li>
     </ul>
     <div class="main-text">
       <p>
@@ -56,11 +63,11 @@
         aut.
       </p>
     </div>
-    <div class="ye">Et nihil</div>
     <div class="right-to-left-square">
       <p>
         Knowing is not enough; we must apply. Willing is not enough; we must do.
       </p>
+              <div class="ye">Et nihil</div>
     </div>
     <div class="left-to-right-square">
       <p>

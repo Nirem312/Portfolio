@@ -43,6 +43,14 @@ p {
   writing-mode: vertical-lr;
 }
 
+.begone{
+  opacity: 0;
+}
+
+.begonent{
+  opacity: 1;
+}
+
 @keyframes slidein-from-right {
   from {
     margin-left: 100%;
