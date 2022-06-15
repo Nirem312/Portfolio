@@ -12,7 +12,6 @@
   animation-duration: 1.5s;
   animation-name: slidein-from-left;
   text-align: right;
-  position: relative;
 }
 
 p {
@@ -40,7 +39,8 @@ p {
   position: relative;
 }
 .ye {
-  writing-mode: vertical-lr;
+  writing-mode: vertical-rl;
+  text-align: right;
 }
 
 .begone{
