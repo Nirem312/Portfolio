@@ -14,6 +14,12 @@
   text-align: right;
 }
 
+h1 {
+  color: #fff8be;
+  text-align:center;
+  font-size: 50px;
+}
+
 p {
   color: #fff8be;
   padding-left: 80px;
@@ -34,6 +40,9 @@ p {
   font-size: 16px;
 }
 
+.profilepic {
+  
+}
 .main-text {
   text-align: center;
   position: relative;
