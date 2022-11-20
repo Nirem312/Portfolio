@@ -55,10 +55,6 @@ p {
   text-align: center;
   position: relative;
 }
-.ye {
-  writing-mode: vertical-rl;
-  text-align: right;
-}
 
 .begone{
   opacity: 0;
