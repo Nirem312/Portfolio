@@ -35,6 +35,13 @@ h2 {
   text-align: right;
 }
 
+.lista{
+  color: #fff8be;
+  text-align:
+  font-size: 35px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 p, pre{
   color: #fff8be;
   padding-left: 80px;
