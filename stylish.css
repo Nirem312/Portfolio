@@ -24,7 +24,7 @@ h1 {
 h2 {
   color: #fff8be;
   text-align: left;
-  font-size: 40px;
+  font-size: 45px;
   padding-left: 50px;
   font-weight: normal;
   padding-right: 50px;
@@ -35,7 +35,7 @@ h2 {
   text-align: right;
 }
 
-p {
+p, pre{
   color: #fff8be;
   padding-left: 80px;
   padding-right: 80px;
