@@ -19,21 +19,20 @@ h1 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.aligned-right{
+  text-align: right;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 h2{
   color: #fff8be;
-  text-align: left;
+  text-align: auto;
   font-size: 45px;
   padding-left: 50px;
   font-weight: normal;
   padding-right: 50px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
-.aligned-right{
-  text-align: right;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
 
 p{
   color: #fff8be;
@@ -62,6 +61,8 @@ a:hover{
 
 .main-text{
   text-align:center;
+  background-color: #301A4B;
+  padding: 20px;
 }
 
 .estudios{
@@ -70,11 +71,24 @@ a:hover{
 }
 
 .habilidades{
-  background-color: #DB3069;
+  background-color: #CA054D;
   padding: 20px;
 }
 
+.experiencia{
+  background-color: #6DB1BF;
+  padding: 20px;
+}
 
+.lenguajes{
+  background-color: #EBEBD3;
+  padding: 20px;
+}
+
+.cursos{
+  background-color: #087E8B;
+  padding: 20px;
+}
 
 .cl{
   overflow: 0;
