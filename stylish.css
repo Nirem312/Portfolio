@@ -61,6 +61,36 @@ a:hover{
 
 .main-text{
   text-align:center;
+}
+
+@media (max-width: 800px) {
+  ul, li{
+   flex-direction: column;
+  }
+  
+  p{
+    font-size: 25px;
+  }
+  
+  h1{
+    font-size: 40px;
+  }
+  
+  h2{
+    font-size: 34px;
+  }
+  
+  .profilepic{
+    width: 250px;
+    height: 125px;
+    border-radius: 50%;
+  }
+}
+
+/*
+
+.main-text{
+  text-align:center;
   background-color: #301A4B;
   padding: 20px;
 }
@@ -89,6 +119,8 @@ a:hover{
   background-color: #087E8B;
   padding: 20px;
 }
+
+*/
 
 .cl{
   overflow: 0;
@@ -161,11 +193,6 @@ a:hover{
   }
 }
 
-@media (max-width: 800px) {
-  ul, li{
-   flex-direction: column;
-  }
-}
 
 /*NAV bar shit*/
 ul {
