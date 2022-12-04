@@ -136,9 +136,8 @@ a:hover{
 }
 
 @media (max-width: 800px) {
-  ul, li, .btn, .btn-effect {
-    display: flex;
-    flex: 100%;
+  ul, li{
+   flex-direction: column;
   }
 }
 
