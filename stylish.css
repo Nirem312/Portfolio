@@ -64,6 +64,18 @@ a:hover{
   text-align:center;
 }
 
+.estudios{
+  background-color: #1446A0;
+  padding: 20px;
+}
+
+.habilidades{
+  background-color: #DB3069;
+  padding: 20px;
+}
+
+
+
 .cl{
   overflow: 0;
   margin: 0;
