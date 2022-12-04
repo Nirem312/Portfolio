@@ -19,7 +19,7 @@ h1 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-h2, footer{
+h2{
   color: #fff8be;
   text-align: left;
   font-size: 45px;
@@ -35,12 +35,20 @@ h2, footer{
 }
 
 
-p {
+p{
   color: #fff8be;
   padding-left: 80px;
   padding-right: 80px;
   font-size: 35px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+footer{
+  color: #fff8be;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
 }
 
 a{
@@ -51,7 +59,7 @@ a:hover{
   text-decoration: underline;
 }
 
-a:visited{
+a:visited, .mail{
   color: #fff8be;
 }
 
