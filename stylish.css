@@ -146,10 +146,12 @@ ul {
   /*background: #1D2A35;*/
   display: flex;
   justify-content: center;
+  align-items:center;
 }
 
 li {
   display: flex;
+  align-items:center;
   justify-content: center;
 }
 /*end of NAV bar shit*/
