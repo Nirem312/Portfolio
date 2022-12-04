@@ -155,14 +155,14 @@ li {
 /*end of NAV bar shit*/
 
 /*Button shit start*/
-.third {
+.btn-effect {
   border-color: #3498db;
   color: #fff8be;
   opacity: 1;
   /*box-shadow: 0 0 40px 40px #0c0a31 inset, 0 0 0 0 #3498db;*/
   transition: all 150ms ease-in-out;
 }
-.third:hover {
+.btn-effect:hover {
   box-shadow: 0 0 10px 0 #0c0a31 inset, 0 0 10px 4px #3b3780;
 }
 
