@@ -1,12 +1,12 @@
 html,
 body {
+  background-image: url("cool.jpg");
   overflow: 0;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   /*background: #1D2A35;*/
-  background-image: url("cool.jpg");
   background-repeat: repeat-x;
   font-family: "Montserrat", sans-serif;
 }
@@ -119,44 +119,6 @@ a:hover{
   }
 }
 
-/*
-
-POSSIBLE COLORS
-
-.main-text{
-  text-align:center;
-  background-color: #301A4B;
-  padding: 20px;
-}
-
-.estudios{
-  background-color: #1446A0;
-  padding: 20px;
-}
-
-.habilidades{
-  background-color: #CA054D;
-  padding: 20px;
-}
-
-.experiencia{
-  background-color: #6DB1BF;
-  padding: 20px;
-}
-
-.lenguajes{
-  background-color: #EBEBD3;
-  padding: 20px;
-}
-
-.cursos{
-  background-color: #087E8B;
-  padding: 20px;
-}
-
-*/
-
-
 /*NAV bar shit*/
 ul {
   list-style-type: none;
@@ -214,3 +176,41 @@ li {
   outline: 0;
 }
 /*Button shit end*/
+
+
+/*
+
+POSSIBLE COLORS
+
+.main-text{
+  text-align:center;
+  background-color: #301A4B;
+  padding: 20px;
+}
+
+.estudios{
+  background-color: #1446A0;
+  padding: 20px;
+}
+
+.habilidades{
+  background-color: #CA054D;
+  padding: 20px;
+}
+
+.experiencia{
+  background-color: #6DB1BF;
+  padding: 20px;
+}
+
+.lenguajes{
+  background-color: #EBEBD3;
+  padding: 20px;
+}
+
+.cursos{
+  background-color: #087E8B;
+  padding: 20px;
+}
+
+*/
