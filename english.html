@@ -5,50 +5,13 @@
     <link rel="stylesheet" href="stylish.css"/>
     <!-- Icon created by AomAm (https://www.flaticon.com/free-icons/cool)-->
     <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/5a2ebaff-58d6-4d16-be7c-226add9f7e4f/cool.png?v=1668990184321">
-    <script type="text/javascript" src="animation.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-      
-      
-      $(document).ready(function () {
-        let gone = false;
-        $("ul").click(function () {
-          if (gone === true) {
-            //$(".main-text").animate({ right: -1000 });
-            $(".main-text").addClass("begone");
-            gone = false;
-          } else if (gone === false) {
-            //$(".main-text").animate({ right: 3000 });
-            $(".main-text").removeClass("begone");
-            $(".right-to-left-square").load(location.href + " .right-to-left-square");
-            gone = true;
-          }
-        });
-
-        // start of third button
-        let back = 1;
-        $("#tercero").click(function () {
-          if (back === 1) {
-            $("body, html").addClass("cl");
-            back = 2;
-          } else if (back === 2) {
-            $("body, html").removeClass("cl");
-            back = 1;
-          }
-        });
-        // end of third button
-        
-      });
-    </script>
-    
   </head>
-  
   <body>
     
     <ul>
-      <li><button type="button" class="btn btn-effect">weird</button></li>
+      <li><button type="button" class="btn btn-effect">idk</button></li>
       <li><button type="button" class="btn btn-effect" onclick="document.location='index.html'">Spanish</button></li>
-      <li><button type="button" class="btn btn-effect" id="tercero">Theme</button></li>
+      <li><button type="button" class="btn btn-effect" id="tercero">Projects</button></li>
     </ul>
     
     <img src="https://cdn.glitch.global/5a2ebaff-58d6-4d16-be7c-226add9f7e4f/me.jpg?v=1668980868605" class="profilepic"/>
@@ -60,7 +23,7 @@
     <p class="main-text">
       Developer. <br>
       Contact methods: <br>
-      <a href="mailto:nicolasremigiofing@gmail.com" class="mail">Email</a>,
+      <a href="mailto:nicolasremigiofing@gmail.com" class="mail">Email</a> -
       <a href="https://www.linkedin.com/in/nicolas-remigio-abc123/">LinkedIn</a>
     </p>
     
@@ -119,29 +82,9 @@
       <a href="https://www.linkedin.com/learning/project-management-skills-for-leaders?" target="_blank">-Project Management Skills for Leaders</a><br>
     </p>
     
-    <div class="right-to-left-square">
-      <p>
-        Knowing is not enough; we must apply. Willing is not enough; we must do.
-      </p>
-    </div>
-    
-    <div class="left-to-right-square">
-      <p>
-        Knowing is not enough; we must apply. Willing is not enough; we must do.
-      </p>
-    </div>
-
-    <p>
-      vel et expedita rerum repudiandae expedita. Et nihil qui voluptatem sed
-      consequuntur consequuntur ratione. Atque ex consectetur et ut. Fugit et
-      placeat minus tempora dolorem sint velit aut. Voluptates occaecati id est
-      culpa quae. Asperiores et eos esse qui assumenda deserunt aperiam. Impedit
-      aut ipsa nobis id nam perferendis aut.
-    </p>
-    
     <footer>
       Contact methods: 
-      <a href="mailto:nicolasremigiofing@gmail.com" class="mail">Email</a>,
+      <a href="mailto:nicolasremigiofing@gmail.com" class="mail">Email</a> -
       <a href="https://www.linkedin.com/in/nicolas-remigio-abc123/">LinkedIn</a>
     </footer>
   
