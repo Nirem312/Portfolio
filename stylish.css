@@ -119,7 +119,8 @@ a:hover{
   }
 }
 
-/*NAV bar shit*/
+/*NAV bar */
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -134,9 +135,12 @@ li {
   display: flex;
   justify-content: center;
 }
-/*end of NAV bar shit*/
 
-/*Button shit start*/
+/*end of NAV bar */
+
+
+/*Button start*/
+
 .btn-effect {
   border-color: #3498db;
   color: #fff8be;
@@ -175,7 +179,8 @@ li {
   color: #fff8be;
   outline: 0;
 }
-/*Button shit end*/
+
+/*Button end*/
 
 
 /*
