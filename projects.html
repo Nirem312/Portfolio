@@ -49,8 +49,7 @@
         <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/quote_2.jpg?v=1682995735899" style="width:100%">
         <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/quote_3.jpg?v=1682995740430" style="width:100%">
         <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+
           <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
           <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
           <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
@@ -60,37 +59,20 @@
       <script>
         var slideIndex = 1;
         //showDivs(slideIndex);
-        carousel(slideIndex);
-
-        function plusDivs(n) {
-          carousel(slideIndex += n);
-        }
-
-        function currentDiv(n) {
-          carousel(slideIndex = n);
-        }
+        carousel();
 
 
           function carousel(n) {
             var i;
             var x = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            if (n > x.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = x.length}
             for (i = 0; i < x.length; i++) {
               x[i].style.display = "none";
             }
-            for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" w3-white", "");
-            }
-            x[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " w3-white";
             slideIndex++;
             if (slideIndex > x.length) {slideIndex = 1}
-            console.log(slideIndex);
-            setTimeout(carousel, 5000); // Change image every 2 seconds
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 4000); // Change image every 2 seconds
           }
-        
       </script>
       
       <p>
