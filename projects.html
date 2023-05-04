@@ -6,7 +6,7 @@
   <head>
     <title>Resume</title>
     <link rel="stylesheet" href="stylish.css"/>
-    <script type="text/javascript" src="animation.js"></script>
+
     <!-- Icon created by AomAm (https://www.flaticon.com/free-icons/cool) -->
     <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/5a2ebaff-58d6-4d16-be7c-226add9f7e4f/cool.png?v=1668990184321">
   </head>
@@ -33,19 +33,34 @@
     
     <section class="estudios"> 
       <h2>
-        Generador de frases celebres aleatorias
+        Generador de frases aleatorias
       </h2>
       
-
       <section class="main-text" style="max-width:700px">
         <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/quote_1.jpg?v=1682995729020" style="width:100%">
         <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/quote_2.jpg?v=1682995735899" style="width:100%">
         <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/quote_3.jpg?v=1682995740430" style="width:100%">
       </section>
       
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3500); // Change image every 3.5 seconds
+        }
+      </script>
+      
       <p>
         <b>Bachillerato</b>: Instituto Tecnológico Superior “Arias-Balparda” (2016 - 2019) <br>
-        <b>Universidad</b>: Facultad de Ingeniería UdelaR (2019 - Presente)
       </p>
     </section>
     
