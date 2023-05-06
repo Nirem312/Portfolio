@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 
-<!-- change language option to work with template literals so the page is not reloaded -->
-
 <html>
   <head>
     <title>Resume</title>
     <link rel="stylesheet" href="stylish.css"/>
-    <script src="https://unpkg.com/petite-vue" defer init></script>
-
     <!-- Icon created by AomAm (https://www.flaticon.com/free-icons/cool) -->
     <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/5a2ebaff-58d6-4d16-be7c-226add9f7e4f/cool.png?v=1668990184321">
   </head>
   <body>
+    
+    <script>
+        var myIndex = 0;
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3500);
+        }
+    </script>
+    
     <ul>
       <li><button type="button" class="btn btn-effect" onclick="document.location='projectsEnglish.html'">English</button></li>
       <li><button type="button" class="btn btn-effect" onclick="document.location='index.html'">Inicio</button></li>
@@ -31,32 +44,19 @@
       </p>
     </section>
     
-    <section class="estudios"> 
+    <section> 
       <h2>
         <a href="https://github.com/Nirem312/test3.git">Generador de frases aleatorias</a>
       </h2>
       
-      <section class="carrousel" style="max-width:700px">
+      <section class="carousel" style="max-width:700px">
         <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/quote_1.jpg?v=1682995729020" style="width:100%">
         <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/quote_2.jpg?v=1682995735899" style="width:100%">
         <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/quote_3.jpg?v=1682995740430" style="width:100%">
       </section>
       
       <script>
-        var myIndex = 0;
         carousel();
-
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 3500);
-        }
       </script>
       
       <p>
@@ -71,21 +71,31 @@
       </p>
     <hr/>
     
-    <section class="aligned-right habilidades">
+    <!-- Proyecto 2 en camino
+
+    <section class="aligned-right">
       <h2>
-        Tecnologías y conocimientos
+        Project
       </h2>
       
+      <section class="carousel" style="max-width:700px">
+        <img class="mySlides" src="" style="width:100%">
+        <img class="mySlides" src="" style="width:100%">
+        <img class="mySlides" src="" style="width:100%">
+      </section>
+
       <p>
-        <b>Lenguajes avanzado</b>: Python, JavaScript, CSS, HTML. <br>
-        <b>Lenguajes intermedio</b>: Node.JS* <br>
-        <b>Lenguajes basico</b>: Java, C++, VisualBasic.NET, VueJS*, ReactJS* <br>
-        <b>DBMS</b>: MySQL, MongoDB. <br>
-        <b>Sistemas operativos</b>: Windows, Linux.
+        <b>Descripcion</b>: 
       </p>
-      <footer style="text-align:right;">* no son estrictamente lenguajes de programacion</footer>
     </section>
-    
+
+      <p style="text-align: center">
+        <a href="https://github.com/Nirem312/">Repositorio</a> -
+        <a href="">Sitio live</a>  
+      </p>
+    <hr/>
+
+    -->
     
     <footer>
       Contacto: 
