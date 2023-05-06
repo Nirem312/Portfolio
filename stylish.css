@@ -53,14 +53,17 @@ a:hover{
   text-decoration: underline;
 }
 
-.main-text{
-  text-align:center;
-  margin: 0 auto;
-  font-size: 35px;
+.mySlides{
+  text-align: center;
 }
 
-.mySlides{
-  height:50%;
+.main-text{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 35px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .aligned-right{
