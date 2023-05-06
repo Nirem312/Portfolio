@@ -59,9 +59,9 @@ a:hover{
 
 .main-text{
   text-align: center;
-  margin: 0 auto;
+  margin: 609px auto;
   font-size: 35px;
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
