@@ -28,6 +28,13 @@ h2{
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background: #333333;
+    background-image: linear-gradient(to left, #333333, #cccccccc, #333333);
+}
+
 p{
   color: #fff8be;
   padding-left: 80px;
@@ -53,6 +60,11 @@ a:hover{
   text-decoration: underline;
 }
 
+.aligned-right{
+  text-align: right;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .carousel{
   margin: 0 auto;
   height: auto;
@@ -61,20 +73,12 @@ a:hover{
   justify-content: center;
 }
 
+.cursos{
+  font-size: 30px;
+}
+
 .main-text{
   text-align: center;
-}
-
-.aligned-right{
-  text-align: right;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: #333333;
-    background-image: linear-gradient(to left, #333333, #cccccccc, #333333);
 }
 
 .profilepic {
@@ -94,7 +98,7 @@ hr {
   }
   
   p{
-    font-size: 25px;
+    font-size: 23px;
   }
   
   h1{
