@@ -15,12 +15,15 @@
         function carousel() {
           var i;
           var x = document.getElementsByClassName("mySlides");
+          var y = document.getElementsByClassName("mySlides2");
           for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";  
+            y[i].style.display = "none";  
           }
           myIndex++;
           if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
+          x[myIndex-1].style.display = "block";
+          y[myIndex-1].style.display = "block"; 
           setTimeout(carousel, 3500);
         }
     </script>
@@ -77,10 +80,10 @@
         <a href="https://github.com/Nirem312/test3.git">Applicacion sobre adivinar un Pokemon aleatorio</a>
       </h2>
       
-      <section class="carousel" style="max-width:700px">
-        <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/pokemon_1.jpg?v=1685910320464" style="width:100%">
-        <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/pokemon_2.jpg?v=1685910353715" style="width:100%">
-        <img class="mySlides" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/pokemon_3.jpg?v=1685910370966" style="width:100%">
+      <section class="carousel" style="max-width:400px">
+        <img class="mySlides2" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/pokemon_1.jpg?v=1685910320464" style="width:100%">
+        <img class="mySlides2" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/pokemon_2.jpg?v=1685910353715" style="width:100%">
+        <img class="mySlides2" src="https://cdn.glitch.global/85b7a404-b630-45a0-991e-94ca281afd3c/pokemon_3.jpg?v=1685910370966" style="width:100%">
       </section>
       
       <script>
