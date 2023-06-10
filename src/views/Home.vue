@@ -1,28 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Resume</title>
-    <link rel="stylesheet" href="stylish.css"/>
-    <!-- Icon created by AomAm (https://www.flaticon.com/free-icons/cool)-->
-    <link rel="icon" type="image/x-icon" href="images/cool.png">
-  </head>
-  <body>
-    
-    <ul>
-      <li><button type="button" class="btn btn-effect" onclick="document.location='index.html'">Spanish</button></li>
-      <li><button type="button" class="btn btn-effect" onclick="document.location='projectsEnglish.html'">Projects</button></li>
-    </ul>
-    
+<script>
+  import Footer from '../components/Footer.vue'
+
+  export default {
+  components: {
+    Footer
+  }
+}
+</script>
+
+<template>
     <section class="main-text">
       <h1>
         Nicolas Remigio
       </h1>
-
       <p>
-        Developer. <br>
-        Contact methods: <br>
-        <a href="mailto:nicolasremigiofing@gmail.com">Email</a> -
-        <a href="https://www.linkedin.com/in/nicolas-remigio-abc123/" target="_blank">LinkedIn</a>
+        Frontend developer focusing on the React and Vue frameworks. <br>
       </p>
     </section>
     
@@ -30,7 +22,6 @@
       <h2>
         Studies
       </h2>
-
       <p>
         <b>High school</b>: Instituto Tecnológico Superior “Arias-Balparda” (2016 - 2019) <br>
         <b>College</b>: Facultad de Ingeniería UdelaR (2019 - Present)
@@ -41,24 +32,21 @@
       <h2>
         Technologies and skills
       </h2>
-
       <p>
         <b>Advanced</b>: Python, JavaScript, CSS, HTML.<br>
-        <b>Intermediate</b>: Node.JS*, ReactJS*.<br>
-        <b>Basic</b>: Java, C++, VisualBasic.NET, VueJS*.<br>
+        <b>Intermediate</b>: VueJS, ReactJS.<br>
+        <b>Basic</b>: Java, C++, VisualBasic.NET, Node.JS.<br>
         <b>DBMS</b>: MySQL, MongoDB.<br>
         <b>Operating systems</b>: Windows, Linux.<br>
         <b>Networking</b>: Devices, protocols, topologies.<br>
         <b>Pen-testing</b>: Labs (HackTheBox, picoCTF, PortSwigger), virtualization.<br>
       </p>
-      <footer style="text-align:right;">* not strictly programming languages</footer>
     </section> 
     
     <section class="experiencia"> 
       <h2>
         Work experience
       </h2>
-
       <p>
         <b>Tata Consultancy Services</b>: <br>
         Service desk specialist (March 7<sup>th</sup> 2022 - December 20<sup>th</sup> 2022).
@@ -70,7 +58,6 @@
       <h2>
         Languages
       </h2>
-
       <p>
         <b>Spanish</b>: Native. <br>
         <b>English</b>: C.E.R.F.L.: C1, C.A.E. Cambridge certificate.
@@ -81,7 +68,6 @@
       <h2>
         Courses and certifications
       </h2>
-
       <p class="cursos">
           <a href="https://www.freecodecamp.org/learn" target="_blank"><b>freeCodeCamp:</b></a><br>
           <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">-JavaScript Algorithms and Data Structures</a><br>
@@ -94,14 +80,12 @@
           <a href="https://www.linkedin.com/learning/paths/networking-and-administration-fundamentals?" target="_blank">-<b>Learning path: Networking and Administration Fundamentals</b></a><br>
           <a href="https://www.linkedin.com/learning/paths/improve-your-cisco-network-security-skills?" target="_blank">-<b>Learning path: Improve Your Cisco Network Security Skills</b></a><br>
           <a href="https://www.linkedin.com/learning/linux-system-engineer-web-servers-and-dns-using-apache-nginx-and-bind?" target="_blank">-Linux System Engineer: Web Servers and DNS Using Apache, NGINX, and BIND</a><br>
-          
       </p>
     </section>
-    
-    <footer>
-      Contact methods: 
-      <a href="mailto:nicolasremigiofing@gmail.com" target="_blank">Email</a> -
-      <a href="https://www.linkedin.com/in/nicolas-remigio-abc123/" target="_blank">LinkedIn</a>
-    </footer>
-  </body>
-</html>
+
+    <Footer />
+</template>
+
+<style>
+
+</style>
