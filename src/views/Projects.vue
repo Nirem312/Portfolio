@@ -71,7 +71,7 @@ import { onMounted } from 'vue';
       </section>
 
       <p>
-        <b>Description</b>: Application made with React that displays the silhouette of a random Pokemon, provides hints about it
+        <b>Description</b>: Application made with React and TypeScript that displays the silhouette of a random Pokemon, provides hints about it
         and once the Pokemon is correctly guessed displays its image. <br/> 
         Also includes an option to display the Pokemon and its name in case the user can't guess it. <br/> 
         Keeps track of the number of correct guesses and provides a link to a wiki page for the Pokemon when it's revealed.
