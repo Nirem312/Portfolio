@@ -1,11 +1,9 @@
 <script>
   import Footer from '../components/Footer.vue'
-  import Section from '../components/Section.vue'
 
   export default {
   components: {
-    Footer,
-    Section
+    Footer
   }
 }
 </script>
@@ -29,10 +27,6 @@
       <b>College</b>: Facultad de Ingeniería UdelaR (2019 - 2023) <br>
       <b>College</b>: ORT University, Systems engineering (2023 - Present)
     </p>
-    
-    <Section title="Studies" text="<b>High school</b>: Instituto Tecnológico Superior “Arias-Balparda” (2016 - 2019) <br>
-      <b>College</b>: Facultad de Ingeniería UdelaR (2019 - 2023) <br>
-      <b>College</b>: ORT University, Systems engineering (2023 - Present)"/>
   </section>
   
   <section class="aligned-right habilidades">
