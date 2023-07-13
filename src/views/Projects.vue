@@ -42,9 +42,9 @@ import { onMounted } from 'vue';
   </h2>
     
   <section class="carousel" style="max-width:600px">
-    <img class="mySlides" src="../assets/insta_1.jpg" style="width:100%" loading="lazy">
-    <img class="mySlides" src="../assets/insta_2.jpg" style="width:100%" loading="lazy">
-    <img class="mySlides" src="../assets/insta_3.jpg" style="width:100%" loading="lazy">
+    <img class="mySlides" src="../assets/insta_2.jpg" style="width:100%">
+    <img class="mySlides" src="../assets/insta_1.jpg" style="width:100%">
+    <img class="mySlides" src="../assets/insta_3.jpg" style="width:100%">
   </section>
 
   <p>
@@ -64,9 +64,9 @@ import { onMounted } from 'vue';
   </h2>
     
   <section class="carousel" style="max-width:400px">
-    <img class="mySlides2" src="../assets/pokemon_1.jpg" style="width:100%" loading="lazy">
-    <img class="mySlides2" src="../assets/pokemon_2.jpg" style="width:100%" loading="lazy">
-    <img class="mySlides2" src="../assets/pokemon_3.jpg" style="width:100%" loading="lazy">
+    <img class="mySlides2" src="../assets/pokemon_1.jpg" style="width:100%">
+    <img class="mySlides2" src="../assets/pokemon_2.jpg" style="width:100%">
+    <img class="mySlides2" src="../assets/pokemon_3.jpg" style="width:100%">
   </section>
 
   <p>
