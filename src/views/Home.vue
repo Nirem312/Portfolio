@@ -1,9 +1,11 @@
 <script>
   import Footer from '../components/Footer.vue'
+  import Section from '../components/Section.vue'
 
   export default {
   components: {
-    Footer
+    Footer,
+    Section
   }
 }
 </script>
@@ -24,8 +26,13 @@
     </h2>
     <p>
       <b>High school</b>: Instituto Tecnológico Superior “Arias-Balparda” (2016 - 2019) <br>
-      <b>College</b>: Facultad de Ingeniería UdelaR (2019 - Present)
+      <b>College</b>: Facultad de Ingeniería UdelaR (2019 - 2023) <br>
+      <b>College</b>: ORT University, Systems engineering (2023 - Present)
     </p>
+    
+    <Section title="Studies" text="<b>High school</b>: Instituto Tecnológico Superior “Arias-Balparda” (2016 - 2019) <br>
+      <b>College</b>: Facultad de Ingeniería UdelaR (2019 - 2023) <br>
+      <b>College</b>: ORT University, Systems engineering (2023 - Present)"/>
   </section>
   
   <section class="aligned-right habilidades">
@@ -34,9 +41,9 @@
     </h2>
     <p>
       <b>Advanced</b>: Python, JavaScript, CSS, HTML.<br>
-      <b>Intermediate</b>: VueJS, ReactJS.<br>
-      <b>Basic</b>: Java, C++, VisualBasic.NET, Node.JS.<br>
-      <b>DBMS</b>: MySQL, MongoDB.<br>
+      <b>Intermediate</b>: VueJS, ReactJS, NodeJS, ExpressJS, TypeScript<br>
+      <b>Basic</b>: Java, C++, VisualBasic.NET<br>
+      <b>DBMS</b>: MySQL, MongoDB, PostgreSQL<br>
       <b>Operating systems</b>: Windows, Linux.<br>
       <b>Networking</b>: Devices, protocols, topologies.<br>
       <b>Pen-testing</b>: Labs (HackTheBox, picoCTF, PortSwigger), virtualization.<br>
@@ -60,7 +67,7 @@
     </h2>
     <p>
       <b>Spanish</b>: Native. <br>
-      <b>English</b>: C.E.R.F.L.: C1, C.A.E. Cambridge certificate.
+      <b>English</b>: C1, C.A.E. Cambridge certificate.
     </p>
   </section>
   
@@ -69,6 +76,8 @@
       Courses and certifications
     </h2>
     <p class="cursos">
+      <a href="https://www.coderhouse.com.uy/" target="_blank"><b>CoderHouse:</b></a><br>
+      <a href="https://www.coderhouse.com.uy/online/carrera-online-desarrollo-frontend" target="_blank">-React frontend development career</a><br>
       <a href="https://www.freecodecamp.org/learn" target="_blank"><b>freeCodeCamp:</b></a><br>
       <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">-JavaScript Algorithms and Data Structures</a><br>
       <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/" target="_blank">-Front End Development Libraries</a><br>
