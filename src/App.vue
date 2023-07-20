@@ -63,9 +63,9 @@
       border-radius: 50%;
       font-size: 15px;
       padding: 11px;
-      position: sticky;
+      position: fixed;
       left: 0;
-      bottom: 15px;
+      bottom: 5vh;
     }
 
     img{
