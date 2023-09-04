@@ -2,32 +2,6 @@
 import Footer from '../components/Footer.vue'
 
   export default {
-    data () {
-      return {
-        items1: [
-          {
-            src: 'src/assets/insta_1.jpg',
-          },
-          {
-            src: '/assets/insta_2.jpg',
-          },
-          {
-            src: '../assets/insta_3.jpg',
-          },
-        ],
-        items2: [
-          {
-            src: '/src/assets/pokemon_1.jpg',
-          },
-          {
-            src: '/assets/pokemon_2.jpg',
-          },
-          {
-            src: '/assets/pokemon_3.jpg',
-          },
-        ],
-      }
-    },
     components: {
       Footer
     }
@@ -53,10 +27,18 @@ import Footer from '../components/Footer.vue'
     hide-delimiters
     >
       <v-carousel-item
-          v-for="(item,i) in items1"
-          :key="i"
-          :src="item.src"
-          contain 
+          src="src/assets/insta_1.jpg"
+          cover
+        ></v-carousel-item>
+
+        <v-carousel-item
+          src="src/assets/insta_2.jpg"
+          cover
+        ></v-carousel-item>
+
+        <v-carousel-item
+          src="src/assets/insta_3.jpg"
+          cover
       ></v-carousel-item>
     </v-carousel>
   </section>
@@ -86,10 +68,18 @@ import Footer from '../components/Footer.vue'
     hide-delimiters
     >
       <v-carousel-item
-        v-for="(item,i) in items2"
-        :key="i"
-        :src="item.src"
-        contain 
+          src="src/assets/pokemon_1.jpg"
+          contain 
+        ></v-carousel-item>
+
+        <v-carousel-item
+          src="src/assets/pokemon_2.jpg"
+          contain 
+        ></v-carousel-item>
+
+        <v-carousel-item
+          src="src/assets/pokemon_3.jpg"
+          contain 
       ></v-carousel-item>
     </v-carousel>
   </section>
