@@ -6,18 +6,18 @@ import Footer from '../components/Footer.vue'
       return {
         items1: [
           {
-            src: '/assets/insta_1.jpg',
+            src: 'src/assets/insta_1.jpg',
           },
           {
             src: '/assets/insta_2.jpg',
           },
           {
-            src: '/assets/insta_3.jpg',
+            src: '../assets/insta_3.jpg',
           },
         ],
         items2: [
           {
-            src: '/assets/pokemon_1.jpg',
+            src: '/src/assets/pokemon_1.jpg',
           },
           {
             src: '/assets/pokemon_2.jpg',
