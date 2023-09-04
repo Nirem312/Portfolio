@@ -1,32 +1,36 @@
 <script>
 import Footer from '../components/Footer.vue'
-import { onMounted } from 'vue';
 
   export default {
-    setup(){
-      onMounted(() => {
-        carousel()
-      })
+    data () {
+      return {
+        items1: [
+          {
+            src: '../assets/insta_1.jpg',
+          },
+          {
+            src: '../assets/insta_2.jpg',
+          },
+          {
+            src: '../assets/insta_3.jpg',
+          },
+        ],
+        items2: [
+          {
+            src: '../assets/pokemon_1.jpg',
+          },
+          {
+            src: '../assets/pokemon_2.jpg',
+          },
+          {
+            src: '../assets/pokemon_3.jpg',
+          },
+        ],
+      }
     },
     components: {
       Footer
     }
-  }
-
-  var myIndex = 0;
-  export function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var y = document.getElementsByClassName("mySlides2");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-      y[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    y[myIndex-1].style.display = "block"; 
-    setTimeout(carousel, 3500);
   }
 </script>
 
@@ -38,13 +42,23 @@ import { onMounted } from 'vue';
   </section>
 
   <h2>
-    <a href="https://github.com/Nirem312/Instaclone" target="_blank">Instagram profile clone</a>
+    <a href="https://instaclone-twwp.onrender.com" target="_blank">Instagram profile clone</a>
   </h2>
     
-  <section class="carousel" style="max-width:600px">
-    <img class="mySlides" src="../assets/insta_2.jpg" style="width:100%">
-    <img class="mySlides" src="../assets/insta_1.jpg" style="width:100%">
-    <img class="mySlides" src="../assets/insta_3.jpg" style="width:100%">
+  <section class="carousel">
+    <v-carousel
+    cycle
+    show-arrows="hover"
+    height="300"
+    hide-delimiters
+    >
+      <v-carousel-item
+          v-for="(item,i) in items1"
+          :key="i"
+          :src="item.src"
+          contain 
+      ></v-carousel-item>
+    </v-carousel>
   </section>
 
   <p>
@@ -60,13 +74,24 @@ import { onMounted } from 'vue';
   <hr/>
 
   <h2>
-    <a href="https://github.com/Nirem312/PokemonApp" target="_blank">Guess the Pokemon</a>
+    <a href="https://guess-the-pokemon.onrender.com/" target="_blank">Guess the Pokemon</a>
   </h2>
     
-  <section class="carousel" style="max-width:400px">
-    <img class="mySlides2" src="../assets/pokemon_1.jpg" style="width:100%">
-    <img class="mySlides2" src="../assets/pokemon_2.jpg" style="width:100%">
-    <img class="mySlides2" src="../assets/pokemon_3.jpg" style="width:100%">
+  <section class="carousel carousel2">
+    <v-carousel
+    cycle
+    show-arrows="hover"
+    height="300"
+    max-width="300"
+    hide-delimiters
+    >
+      <v-carousel-item
+        v-for="(item,i) in items2"
+        :key="i"
+        :src="item.src"
+        contain 
+      ></v-carousel-item>
+    </v-carousel>
   </section>
 
   <p>
@@ -84,7 +109,7 @@ import { onMounted } from 'vue';
   <hr/>
 
   <h2>
-    <a href="https://github.com/Nirem312/test3.git" target="_blank">Random quote generator</a>
+    <a href="https://random-quote-vue.onrender.com/" target="_blank">Random quote generator</a>
   </h2>
   
   <p>
@@ -103,9 +128,17 @@ import { onMounted } from 'vue';
 </template>
 
 <style scoped>
+.v-carousel{
+    width: 600px !important;
+  }
+
+.carousel2{
+  width: 300px !important;
+}
 
 h2{
   text-align: center;
+  margin: 15px;
 }
 
 @media (max-width: 800px) {

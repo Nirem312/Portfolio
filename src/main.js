@@ -5,6 +5,10 @@ import App from './App.vue'
 import Home from '../src/views/Home.vue'
 import Projects from '../src/views/Projects.vue'
 import Contact from '../src/views/Contact.vue'
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -27,6 +31,12 @@ const router = createRouter({
     ]
 })
 
+const vuetify = createVuetify({
+    components,
+    directives,
+})  
+
 createApp(App)
 .use(router)
+.use(vuetify)
 .mount('#app')

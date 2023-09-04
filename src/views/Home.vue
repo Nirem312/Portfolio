@@ -71,7 +71,9 @@
     </h2>
     <p class="cursos">
       <a href="https://www.coderhouse.com.uy/" target="_blank"><b>CoderHouse:</b></a><br>
-      <a href="https://www.coderhouse.com.uy/online/carrera-online-desarrollo-frontend" target="_blank">-React frontend development career</a><br>
+      <a href="https://www.coderhouse.com.uy/online/desarrollo-web-online" target="_blank">-Web development course</a><br>
+      <a href="https://www.coderhouse.com.uy/online/javascript" target="_blank">-JavaScript development course</a><br>
+      <a href="https://www.coderhouse.com.uy/online/reactjs" target="_blank">-React frontend development course</a><br>
       <a href="https://www.freecodecamp.org/learn" target="_blank"><b>freeCodeCamp:</b></a><br>
       <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">-JavaScript Algorithms and Data Structures</a><br>
       <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/" target="_blank">-Front End Development Libraries</a><br>
