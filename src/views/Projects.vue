@@ -32,12 +32,12 @@ import Footer from '../components/Footer.vue'
         ></v-carousel-item>
 
         <v-carousel-item
-          src="src/assets/insta_2.jpg"
+          src="../assets/insta_2.jpg"
           cover
         ></v-carousel-item>
 
         <v-carousel-item
-          src="src/assets/insta_3.jpg"
+          src="/src/assets/insta_3.jpg"
           cover
       ></v-carousel-item>
     </v-carousel>
