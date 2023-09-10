@@ -2,6 +2,32 @@
 import Footer from '../components/Footer.vue'
 
   export default {
+    data () {
+      return {
+        items1: [
+          {
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_1.jpg",
+          },
+          {
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_2.jpg",
+          },
+          {
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_3.jpg",
+          },
+        ],
+        items2: [
+          {
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/pokemon_1.jpg",
+          },
+          {
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/pokemon_2.jpg",
+          },
+          {
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/pokemon_3.jpg",
+          },
+        ],
+      }
+    },
     components: {
       Footer
     }
@@ -26,20 +52,12 @@ import Footer from '../components/Footer.vue'
     height="300"
     hide-delimiters
     >
-        <v-carousel-item
-          src="https://github.com/Nirem312/Portfolio/blob/master/src/assets/insta_1.jpg?raw=true"
-          cover
-        ></v-carousel-item>
-
-        <v-carousel-item
-          src="https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_2.jpg"
-          cover
-        ></v-carousel-item>
-
-        <v-carousel-item
-          src="https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_3.jpg"
-          cover
-        ></v-carousel-item>
+      <v-carousel-item
+          v-for="(item,i) in items1"
+          :key="i"
+          :src="item.src"
+          contain 
+      ></v-carousel-item>
     </v-carousel>
   </section>
 
@@ -68,18 +86,10 @@ import Footer from '../components/Footer.vue'
     hide-delimiters
     >
       <v-carousel-item
-          src="https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/pokemon_1.jpg"
-          contain 
-        ></v-carousel-item>
-
-        <v-carousel-item
-          src="https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/pokemon_2.jpg"
-          contain 
-        ></v-carousel-item>
-
-        <v-carousel-item
-          src="https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/pokemon_3.jpg"
-          contain 
+        v-for="(item,i) in items2"
+        :key="i"
+        :src="item.src"
+        contain 
       ></v-carousel-item>
     </v-carousel>
   </section>
