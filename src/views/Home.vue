@@ -14,7 +14,7 @@
       Nicolas Remigio
     </h1>
     <p>
-      Frontend developer focusing on the React and Vue frameworks. <br>
+      Level 1.5 analyst and developer. <br>
     </p>
   </section>
   
@@ -34,10 +34,10 @@
       Technologies and skills
     </h2>
     <p>
-      <b>Advanced</b>: Python, JavaScript, CSS, HTML.<br>
+      <b>Advanced</b>: Python, JavaScript, Java, CSS, HTML.<br>
       <b>Intermediate</b>: VueJS, ReactJS, NodeJS, ExpressJS, TypeScript<br>
-      <b>Basic</b>: Java, C++, VisualBasic.NET<br>
-      <b>DBMS</b>: MySQL, MongoDB, PostgreSQL<br>
+      <b>Basic</b>: C++, VisualBasic.NET, C#<br>
+      <b>DBMS</b>: MySQL, MongoDB, PostgreSQL, MariaDB<br>
       <b>Operating systems</b>: Windows, Linux.<br>
       <b>Networking</b>: Devices, protocols, topologies.<br>
       <b>Pen-testing</b>: Labs (HackTheBox, picoCTF, PortSwigger), virtualization.<br>
@@ -50,8 +50,9 @@
     </h2>
     <p>
       <b>Tata Consultancy Services</b>: <br>
-      Service desk specialist (March 7<sup>th</sup> 2022 - December 20<sup>th</sup> 2022).
-      Subject Matter Expert (December 20<sup>th</sup> 2022 - Present).
+      Level 1 service desk specialist (March 7<sup>th</sup> 2022 - December 20<sup>th</sup> 2022).<br>
+      Level 1 technical lead (December 20<sup>th</sup> 2022 - 18<sup>th</sup> July 2024).<br>
+      Level 1.5 back office analyst (18<sup>th</sup> July 2024 - Present).
     </p>
   </section>
   
