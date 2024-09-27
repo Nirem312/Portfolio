@@ -6,13 +6,13 @@ import Footer from '../components/Footer.vue'
       return {
         items1: [
           {
-            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_1.jpg",
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_1.png",
           },
           {
-            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_2.jpg",
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_2.png",
           },
           {
-            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_3.jpg",
+            src: "https://raw.githubusercontent.com/Nirem312/Portfolio/master/src/assets/insta_3.png",
           },
         ],
         items2: [
@@ -62,7 +62,7 @@ import Footer from '../components/Footer.vue'
   </section>
 
   <p>
-    <b>Description</b>: Instagram profile design clone that loads random animal pictures from an API and
+    <b>Description</b>: Instagram profile design clone that loads random fox pictures from an API and
     presents them as posts with a random amount of likes and comments, utilizes infinite scroll. Created with React.
   </p>
 
