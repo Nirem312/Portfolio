@@ -34,7 +34,7 @@
       Technologies and skills
     </h2>
     <p>
-      <b>Advanced</b>: Python, JavaScript, Java, CSS, HTML.<br>
+      <b>Advanced</b>: Python, JavaScript, Java, CSS, HTML<br>
       <b>Intermediate</b>: VueJS, ReactJS, NodeJS, ExpressJS, TypeScript<br>
       <b>Basic</b>: C++, VisualBasic.NET, C#<br>
       <b>DBMS</b>: MySQL, MongoDB, PostgreSQL, MariaDB<br>

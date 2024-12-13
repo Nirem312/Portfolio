@@ -109,16 +109,16 @@ import Footer from '../components/Footer.vue'
   <hr/>
 
   <h2>
-    <a href="https://random-quote-vue.onrender.com/" target="_blank">Random quote generator</a>
+    <a href="https://random-quote-vue.onrender.com/" target="_blank">Random fact generator</a>
   </h2>
   
   <p>
-    <b>Description</b>: Responsive web application made using Vue that displays a random quote and its author when the
+    <b>Description</b>: Responsive web application made using Vue that displays a random fact when the
     "Generate" button is clicked, data is retrieved using an API.
   </p>
 
   <p style="text-align: center">
-    <a href="https://github.com/Nirem312/test3.git" target="_blank">Repository</a> -
+    <a href="https://github.com/Nirem312/Random-fact-generator" target="_blank">Repository</a> -
     <a href="https://random-quote-vue.onrender.com/" target="_blank">Live site</a>
   </p>
 
